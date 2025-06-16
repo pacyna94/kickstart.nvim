@@ -275,7 +275,11 @@ require('lazy').setup({
       },
     },
   },
-
+  {
+    'brianhuster/autosave.nvim',
+    event = 'InsertEnter',
+    opts = {}, -- Configuration here
+  },
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
